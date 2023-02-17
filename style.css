@@ -1,0 +1,41 @@
+.logos {
+  float:right;
+} 
+
+.logo-footer {
+  margin-left:20px;
+  display: inline-block;
+  position: absolute;
+}
+
+.del-footer {
+  margin-left:100px;
+  /* position: absolute; */
+  margin-top: 50px;
+  display: inline-block;
+  margin-left:72px;
+  padding:2px;
+  font-size:13px;
+}  
+
+ header > img {
+margin-top:20px;
+position:absolute; 
+}  
+
+.logos {
+ margin-top: 35px;
+}
+
+h1 {
+  padding-left:55px;
+  
+
+} 
+#bar {
+ background-image: url("img/hr-img.png");
+ background-repeat:-x;
+ width:30px;
+ margin-top: 75px;
+position: absolute;
+}
