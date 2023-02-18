@@ -16,6 +16,8 @@
   margin-left:72px;
   padding:2px;
   font-size:13px;
+  
+  
 }  
 
  header > img {
@@ -33,9 +35,144 @@ h1 {
 
 } 
 #bar {
- background-image: url("img/hr-img.png");
- background-repeat:-x;
- width:30px;
- margin-top: 75px;
+  background-image: url("img/hr-img.png");
+  background-repeat:repeat-x;
+  width: 100%;
+  margin-top: 75px;
+  /* margin-left: 75px; */
+  margin-right: 75px;
+  /* margin-bottom: 75px; */
+  padding: 150px;
+  display: inline-block;
+  background-size: 11px;
+  
+
+ 
+}
+
+#print {
+  float:right;
+  margin-right: 480px;
+  margin-top: 150px;
+  width: 75px;
+}
+
+.posted {
+  display: inline-block;
+  position: absolute;
+  margin-top: 110px;
+  margin-left:500px ;
+  font-size: 50px;
+
+
+
+}
+
+#choco {
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px ;
+  width: 60%;
+
+  
+}
+
+.posted-date {
+display: inline-block;
+margin-top: 170px;
+margin-left: 500px;
+
+font-size: 11px;
+
+}
+
+main > p {
+text-align: center;
+margin-left: 500px ;
+margin-right: 500px ;
+
+
+}
+
+.notepad {
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#bar2 {
+  background-image: url("img/hr-img.png");
+  background-repeat:repeat-x;
+  width: 100%;
+  margin-top: 75px;
+  /* margin-left: 75px; */
+  margin-right: 75px;
+  /* margin-bottom: 75px; */
+  padding-top: 30px;
+  display: inline-block;
+  background-size: 11px;
+
+  
+
+
+}
+
+.lady {
+  margin-left:20px;
+  margin-bottom: 100px;
+  display: inline-block;
+  position: absolute;
+  word-wrap: break-word;
+  padding-top: 40px;
+  margin-left:20px;
+  
+
+
+}
+
+button {
+  color: white;
+  background-color: orangered;
+  float: right;
+  padding: 30px;
+}
+
+#lady-name {
+/* font-size: 30px;
+margin-left: 30px;
+margin-bottom: 150px ;
+display: inline-block;
+position: absolute; */
+margin-left:20px;
+margin-bottom: 100px;
+display: inline-block;
 position: absolute;
+word-wrap: break-word;
+padding-top: 40px;
+margin-left:20px;
+
+
+
+
+}
+
+#small-logo {
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section > p {
+  margin-left: 35px;
+  /* margin-top: 60px; */
+  margin-bottom: 80px;
+  display: inline-block;
+  position: absolute;
+  font-size: 15px;
+}
+
+footer > p {
+  text-align: center;
 }
